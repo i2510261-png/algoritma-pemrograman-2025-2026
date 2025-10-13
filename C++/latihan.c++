@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-    string name ="intan"
-    int umur = 18
+    string nama = "intan";
+    int umur = 18;
     float tinggi = 153;
     bool aktif = true;
 
@@ -11,6 +11,5 @@ int main(){
     cout <<"Umur:"<<umur<<endl;
     cout <<"Tinggi:"<<tinggi<<endl;
     cout <<"status aktif:"<<aktif<<endl;
-    return0;
-
+    return 0;
 }
