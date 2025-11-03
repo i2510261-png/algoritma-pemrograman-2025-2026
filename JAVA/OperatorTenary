@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        //Operator Ternary
+        
+        double input, x;
+        
+        Scanner inputUser = new Scanner(System.in);
+        
+        System.out.print("masukkan nilai :");
+        
+        input = inputUser.nextDouble(); // Mengganti nextInt() menjadi nextDouble() agar sesuai dengan tipe data input (double)
+        
+        x = (input == 10) ? (input * input) : (input/2); // Perbaikan: Seharusnya (input * input) atau (input) saja?
+
+        System.out.println("hasilnya = " + x);
+        
+    }
+}
