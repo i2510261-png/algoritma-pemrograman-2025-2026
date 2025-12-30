@@ -19,7 +19,7 @@ int main() {
     float total = harga * jumlah;
     float diskon;
 
-    if (total > 26.100) {
+544    if (total > 26.100) {
         diskon = total * 0.10;
     } else {
 diskon = 0;
